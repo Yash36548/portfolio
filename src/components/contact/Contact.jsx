@@ -11,7 +11,7 @@ const Contact = () => {
       "service_21rv6u2",
       "template_yns7apa",
       form.current,
-      "B4Iubmz7hGxS3utHg",
+      "B4Iubmz7hGxS3utHg"
     );
     e.target.reset();
   };
@@ -45,7 +45,7 @@ const Contact = () => {
               <span className="contact_card-data">+91 735-975-6156</span>
 
               <a
-                href="https://api.whatsapp.com/send?phone=917359756156&text=Hello, more information!"
+                href="https://api.whatsapp.com/send?phone=917359756156&text=Hello, May I know more about your services?"
                 className="contact_button"
               >
                 Write me{" "}

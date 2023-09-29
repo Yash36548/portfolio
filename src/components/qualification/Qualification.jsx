@@ -15,26 +15,46 @@ const Qualification = () => {
 
         <div className="qualification_container container">
           <div className="qualification_tabs">
-            <div className={toggleState === 1 ? "qualification_button qualification_active button-flex" : "qualification_button button-flex"} onClick={() => toggleTab(1)}>
+            <div
+              className={
+                toggleState === 1
+                  ? "qualification_button qualification_active button-flex"
+                  : "qualification_button button-flex"
+              }
+              onClick={() => toggleTab(1)}
+            >
               <i className="uil uil-graduation-cap qualification_icon"></i>
               Education
             </div>
 
-            <div className={toggleState === 2 ? "qualification_button qualification_active button-flex" : "qualification_button button-flex"} onClick={() => toggleTab(2)}>
+            <div
+              className={
+                toggleState === 2
+                  ? "qualification_button qualification_active button-flex"
+                  : "qualification_button button-flex"
+              }
+              onClick={() => toggleTab(2)}
+            >
               <i className="uil uil-briefcase qualification_icon"></i>Experience
             </div>
           </div>
 
           <div className="qualification_sections">
-            <div className={toggleState === 1 ? "qualification_content qualification_content-active" : "qualification_content"}>
+            <div
+              className={
+                toggleState === 1
+                  ? "qualification_content qualification_content-active"
+                  : "qualification_content"
+              }
+            >
               <div className="qualification_data">
                 <div>
-                  <h3 className="qualification_title">Web Design</h3>
+                  <h3 className="qualification_title">MERN Stack Web Development</h3>
                   <span className="qualification_subtitle">
-                    Spain - Institute
+                    Way 2 Code
                   </span>
                   <div className="qualification_calender">
-                    <i className="uil uil-calender"></i>2021 - Present
+                    <i className="uil uil-calender"></i>2023
                   </div>
                 </div>
 
@@ -52,23 +72,23 @@ const Qualification = () => {
                 </div>
 
                 <div>
-                  <h3 className="qualification_title">Art Director</h3>
+                  <h3 className="qualification_title">B.Com</h3>
                   <span className="qualification_subtitle">
-                    Spain - Institute
+                    Gujarat University
                   </span>
                   <div className="qualification_calender">
-                    <i className="uil uil-calender"></i>2020 - 2021
+                    <i className="uil uil-calender"></i>July 2016 - March 2019
                   </div>
                 </div>
               </div>
               <div className="qualification_data">
                 <div>
-                  <h3 className="qualification_title">Web Development</h3>
+                  <h3 className="qualification_title">HSC</h3>
                   <span className="qualification_subtitle">
-                    Spain - Institute
+                    M K Patel High School
                   </span>
                   <div className="qualification_calender">
-                    <i className="uil uil-calender"></i>2018 - 2020
+                    <i className="uil uil-calender"></i>2016
                   </div>
                 </div>
 
@@ -86,12 +106,12 @@ const Qualification = () => {
                 </div>
 
                 <div>
-                  <h3 className="qualification_title">UX Export</h3>
+                  <h3 className="qualification_title">SSC</h3>
                   <span className="qualification_subtitle">
-                    Spain - Institute
+                    M K Patel High School
                   </span>
                   <div className="qualification_calender">
-                    <i className="uil uil-calender"></i>2017 - 2018
+                    <i className="uil uil-calender"></i>2014
                   </div>
                 </div>
               </div>
@@ -99,15 +119,21 @@ const Qualification = () => {
 
             {/* -------------------------------------------------------- */}
 
-            <div className={toggleState === 2 ? "qualification_content qualification_content-active" : "qualification_content"}>
+            <div
+              className={
+                toggleState === 2
+                  ? "qualification_content qualification_content-active"
+                  : "qualification_content"
+              }
+            >
               <div className="qualification_data">
                 <div>
-                  <h3 className="qualification_title">Product Designer</h3>
+                  <h3 className="qualification_title">W3School</h3>
                   <span className="qualification_subtitle">
-                    Microsoft - Spain
+                    HTML, CSS, JS
                   </span>
                   <div className="qualification_calender">
-                    <i className="uil uil-calender"></i>2021 - Present
+                    <i className="uil uil-calender"></i>August 2023 - Current
                   </div>
                 </div>
 
@@ -125,21 +151,21 @@ const Qualification = () => {
                 </div>
 
                 <div>
-                  <h3 className="qualification_title">UX Designer</h3>
+                  <h3 className="qualification_title">React Portfolio</h3>
                   <span className="qualification_subtitle">
-                    Apple Inc - Spain
+                    React JS
                   </span>
                   <div className="qualification_calender">
-                    <i className="uil uil-calender"></i>2020 - 2021
+                    <i className="uil uil-calender"></i>June & July - 2023
                   </div>
                 </div>
               </div>
               <div className="qualification_data">
                 <div>
-                  <h3 className="qualification_title">Web Designer</h3>
-                  <span className="qualification_subtitle">Figma - Spain</span>
+                  <h3 className="qualification_title">Anita Dongre Homapage</h3>
+                  <span className="qualification_subtitle">HTML, CSS</span>
                   <div className="qualification_calender">
-                    <i className="uil uil-calender"></i>2018 - 2020
+                    <i className="uil uil-calender"></i>April
                   </div>
                 </div>
 

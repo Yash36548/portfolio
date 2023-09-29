@@ -4,9 +4,9 @@ import CV from "../../assets/John-Cv.pdf";
 import Info from "./Info";
 
 const profile = {
-  imgPath: require('../../../src/assets/user.png'),
-  alt: "Image not found"
-}
+  imgPath: require("../../../src/assets/user.png"),
+  alt: "Image not found",
+};
 
 const About = () => {
   return (
@@ -22,13 +22,14 @@ const About = () => {
             <Info />
 
             <p className="about_description">
-              Frontend developer, I create web pages with HTML CSS, I have months of experience and I am very responsible person towards my tasks.
+              Frontend developer, I create web pages with HTML CSS, I have basic
+              experience and I am very responsible towards my tasks and Projects.
             </p>
 
             <a download="" href={CV} className="button button_flex">
               Download CV
               <svg
-                class="button__icon"
+                class="button_icon"
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
                 height="24"
