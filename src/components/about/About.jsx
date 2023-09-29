@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-import CV from "../../assets/John-Cv.pdf";
+import CV from "../about/YashPatel.pdf";
 import Info from "./Info";
 
 const profile = {
