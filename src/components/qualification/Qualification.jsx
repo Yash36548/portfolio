@@ -49,10 +49,10 @@ const Qualification = () => {
             >
               <div className="qualification_data">
                 <div>
-                  <h3 className="qualification_title">MERN Stack Web Development</h3>
-                  <span className="qualification_subtitle">
-                    Way 2 Code
-                  </span>
+                  <h3 className="qualification_title">
+                    MERN Stack Web Development
+                  </h3>
+                  <span className="qualification_subtitle">Way 2 Code</span>
                   <div className="qualification_calender">
                     <i className="uil uil-calender"></i>2023
                   </div>
@@ -128,12 +128,12 @@ const Qualification = () => {
             >
               <div className="qualification_data">
                 <div>
-                  <h3 className="qualification_title">W3School</h3>
+                  <h3 className="qualification_title">E-commerce Website</h3>
                   <span className="qualification_subtitle">
-                    HTML, CSS, JS
+                    ReactJs, NodeJs, ExpressJs, MongoDB
                   </span>
                   <div className="qualification_calender">
-                    <i className="uil uil-calender"></i>August 2023 - Current
+                    <i className="uil uil-calender"></i>December 2023 - Current
                   </div>
                 </div>
 
@@ -151,21 +151,19 @@ const Qualification = () => {
                 </div>
 
                 <div>
-                  <h3 className="qualification_title">React Portfolio</h3>
-                  <span className="qualification_subtitle">
-                    React JS
-                  </span>
+                  <h3 className="qualification_title">W3School</h3>
+                  <span className="qualification_subtitle">HTML, CSS, JS</span>
                   <div className="qualification_calender">
-                    <i className="uil uil-calender"></i>June & July - 2023
+                    <i className="uil uil-calender"></i>August 2023
                   </div>
                 </div>
               </div>
               <div className="qualification_data">
                 <div>
-                  <h3 className="qualification_title">Anita Dongre Homapage</h3>
-                  <span className="qualification_subtitle">HTML, CSS</span>
+                  <h3 className="qualification_title">React Portfolio</h3>
+                  <span className="qualification_subtitle">React JS</span>
                   <div className="qualification_calender">
-                    <i className="uil uil-calender"></i>April
+                    <i className="uil uil-calender"></i>June & July - 2023
                   </div>
                 </div>
 
